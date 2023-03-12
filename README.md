@@ -7,7 +7,7 @@ This repository contains materials for a workshop on amplicon sequencing methods
 -   **Slides** contains the slide decks presented in lecture format
 -   **Hands-on** contains example data and R code notebooks that we'll use in hands-on sessions
 
-The sections below have more information on the session schedule and setting up your computer for the hands-on sessions.  Before you get started, please help us by filling out a [pre-workshop survey](https://tinyurl.com/pre-duke-workshop).
+The sections below have more information on the schedule and setting up your computer for the hands-on sessions.  Before you get started, please help us by filling out a [pre-workshop survey](https://tinyurl.com/pre-duke-workshop).
 
 ### Schedule
 

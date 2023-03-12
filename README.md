@@ -44,8 +44,8 @@ These instructions assume that you have a computer running Windows. If you have 
 
 1.  In a web browser, go to the [Comprehensive R Archive Network](https://cloud.r-project.org) and click on "Download R for Windows."
 2.  Then click the "base" link ("Binaries for base distribution").
-3.  Click the first link at the top of the new page, which should say something like "Download R 4.2.2 for Windows," (the version listed will be replaced by the most current version of R over time). The link downloads an installer program, which installs the most up-to-date version of R for Windows.
-4.  Run this program and step through the installation wizard that appears. The wizard will install R into your program files folders and place a shortcut in your Start menu. Note that you'll need to have all of the appropriate administration privileges to install new software on your machine.
+3.  Click the first link at the top of the new page, which should say something like "Download R 4.2.2 for Windows" (the version listed will be replaced by the most current version of R over time). The link downloads an installer program, which installs the most up-to-date version of R for Windows.
+4.  Run this program and step through the installation wizard that appears. The wizard will install R into your program files folders and place a shortcut in your Start menu. Note that you'll need to have appropriate privileges to install new software on your machine.
 
 #### Install RStudio
 
@@ -56,7 +56,7 @@ These instructions assume that you have a computer running Windows. If you have 
 
 ### Install R packages
 
-We'll use a few specialized software packages for analyzing amplicon sequencing data in R. To download these packages, open R Studio, and in the `Console` window (usually on the lower left), enter the following:
+We'll use a few specialized software packages for analyzing amplicon sequencing data in R. To download these packages, open R Studio, and in the `Console` window (usually on the left), enter and run the following:
 
     if (!require("BiocManager", quietly = TRUE))
         install.packages("BiocManager")
@@ -89,4 +89,4 @@ You can copy the full contents of this repository to your personal computer by "
 
 ### Acknowledgements
 
-This workshop samples heavily from materials generally shared by Josh Granek.
+This workshop borrows extensively from materials shared by Josh Granek.

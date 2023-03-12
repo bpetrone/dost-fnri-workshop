@@ -1,15 +1,15 @@
 # dost-fnri-workshop
 
-This repository contains materials for a workshop on amplicon sequencing methods held at DOST-FNRI in March, 2023. The workshop contents are organized by topic:
-
 ## Overview
+
+This repository contains materials for a workshop on amplicon sequencing methods held at DOST-FNRI in March, 2023. The workshop contents are organized by topic:
 
 -   **Slides** contains the slide decks presented in lecture format
 -   **Hands-on** contains example data and R code notebooks that we'll use in hands-on sessions
 
 The sections below have more information on the schedule and setting up your computer for the hands-on sessions.  Before you get started, please help us by filling out a [pre-workshop survey](https://tinyurl.com/pre-duke-workshop).
 
-### Schedule
+## Schedule
 
 | Date   | Time      | Topic                                        |
 |--------|-----------|----------------------------------------------|
@@ -36,19 +36,15 @@ There are two steps to getting started using R on your computer:
 -   Install R (the computing language)
 -   Install RStudio (a user interface for working with R)
 
-Both are free and easy to download.
+Both are free and easy to download. These instructions assume that you have a computer running Windows. If you have another operating system, let us know.
 
-#### Install R
-
-These instructions assume that you have a computer running Windows. If you have another operating system, let us know.
-
+**To install R:**
 1.  In a web browser, go to the [Comprehensive R Archive Network](https://cloud.r-project.org) and click on "Download R for Windows."
 2.  Then click the "base" link ("Binaries for base distribution").
 3.  Click the first link at the top of the new page, which should say something like "Download R 4.2.2 for Windows" (the version listed will be replaced by the most current version of R over time). The link downloads an installer program, which installs the most up-to-date version of R for Windows.
 4.  Run this program and step through the installation wizard that appears. The wizard will install R into your program files folders and place a shortcut in your Start menu. Note that you'll need to have appropriate privileges to install new software on your machine.
 
-#### Install RStudio
-
+**To install RStudio:**
 1.  In a web browser, go to the [RStudio homepage](https://posit.co/products/open-source/rstudio/) and clck on "Download RStudio" at the top right.
 2.  Click "Download RStudio" under "RStudio Desktop".
 3.  Scroll down and click the link for Windows 10/11 to download the Windows installer.
@@ -70,7 +66,7 @@ If you are prompted by the installation to update or install additional required
 
 You can copy the full contents of this repository to your personal computer by "cloning" them. Cloning a repository differs from downloading in that there is still a connection to the remote copy (*i.e.* on GitHub) that you've copied from. This means that if changes happen in the repository, you can run a second command, called a "pull", to update them in your local version as well.
 
-## Clone the workshop repository:
+**To clone the workshop repository:**
 
 1.  In a web browser, go to the top of the page you're reading now (the [landing page](https://github.com/bpetrone/dost-fnri-workshop) of the repository.
 2.  Click on the blue **Clone** button in the top right part of the repository page.
